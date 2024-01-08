@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import App1 from './App1';
+import ContextAPI from './ContextAPI';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -10,6 +11,7 @@ root.render(
   <React.StrictMode>
     <p style={{ fontSize: "40px", color: "Orange" }}>App</p><App />
     <p style={{ fontSize: "40px", color: "Orange" }}>App1</p><App1 />
+    <p style={{ fontSize: "40px", color: "Orange" }}>ContextAPI</p><ContextAPI />
   </React.StrictMode>
 );
 
